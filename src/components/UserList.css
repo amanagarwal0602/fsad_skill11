@@ -1,9 +1,9 @@
-/* UserList Styles */
+/* UserList Styles - Dark Theme */
 
 .users-table-wrapper {
-  background: #ffffff;
+  background: #1e293b;
   border-radius: 12px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  border: 1px solid #334155;
   overflow: hidden;
 }
 
@@ -13,36 +13,41 @@
 }
 
 .users-table thead {
-  background: #f9fafb;
+  background: rgba(0, 0, 0, 0.3);
 }
 
 .users-table th {
   text-align: left;
   padding: 12px 20px;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 600;
-  color: #6b7280;
+  color: #64748b;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  border-bottom: 1px solid #e5e7eb;
+  letter-spacing: 0.06em;
+  border-bottom: 1px solid #334155;
 }
 
 .users-table td {
   padding: 12px 20px;
   font-size: 14px;
-  color: #374151;
-  border-bottom: 1px solid #f3f4f6;
+  color: #cbd5e1;
+  border-bottom: 1px solid #1e293b;
+}
+
+.users-table tbody tr {
+  border-top: 1px solid #334155;
+  transition: background 0.15s;
 }
 
 .users-table tbody tr:hover {
-  background: #f9fafb;
+  background: rgba(56, 189, 248, 0.04);
 }
 
 .cell-name {
   font-weight: 600;
-  color: #1f2937;
+  color: #f1f5f9;
 }
 
 .cell-email {
-  color: #4f46e5;
+  color: #38bdf8;
 }
